@@ -9,7 +9,7 @@ import time
 #import datetime
 #import threading
 
-hosts = ['fort-pub5.etn']
+hosts = ['']
 mbean_bases = ['Catalina:type=GlobalRequestProcessor,name=jk-*','Catalina:type=DataSource,name=*,class=javax.sql.DataSource,host=localhost,path=/']
 attributes = ['requestCount', 'numActive', 'maxActive', 'numIdle', 'maxIdle']
 
